@@ -1,0 +1,10 @@
+# Archivos originales de referencia (mantenidos localmente fuera del sitio web publicado)
+img/01.jpg
+img/02.jpg
+img/logo.jpeg
+
+# Archivos temporales y del sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
