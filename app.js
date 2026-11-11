@@ -7,6 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
   initMobileMenu();
   initFilterGroup({
+    buttonSelector: '[data-team-filter]',
+    cardSelector: '.team-card',
+    attrName: 'data-team-filter',
+    cardAttrName: 'data-team-group'
+  });
+  initFilterGroup({
     buttonSelector: '[data-filter]',
     cardSelector: '.gallery-card',
     attrName: 'data-filter',
@@ -79,7 +85,7 @@ function initMobileMenu() {
 }
 
 /**
- * Inicializa un grupo de botones de filtro reutilizable para tarjetas de galería o documentos.
+ * Inicializa un grupo de botones de filtro reutilizable para tarjetas de equipo, galería o documentos.
  */
 function initFilterGroup({
   buttonSelector,

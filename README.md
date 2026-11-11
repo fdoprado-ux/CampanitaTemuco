@@ -1,25 +1,31 @@
 # Escuela de Párvulos Municipal Campanita — Sitio Web Institucional
 
-Sitio web oficial de la **Escuela de Párvulos Municipal Campanita** (RBD `5617-0`), establecimiento municipal ubicado en **Nahuelbuta 2785, Sector Pueblo Nuevo, Temuco, Región de La Araucanía, Chile**.
+Sitio web oficial de la **Escuela de Párvulos Municipal Campanita** (RBD `5617-0`), establecimiento municipal adherido a Ley SEP ubicado en **Nahuelbuta 2785, Sector Pueblo Nuevo, Temuco, Región de La Araucanía, Chile**.
 
-## Identificación del Establecimiento
+**Sello educativo:** *“El Juego nos une, la diversidad nos enriquece”*
+
+## Identificación, Horarios y Contacto
 
 - **Nombre:** Escuela de Párvulos Municipal Campanita
-- **Dependencia:** Municipal
+- **Dependencia:** Municipal (DAEM Temuco)
 - **Dirección:** Nahuelbuta 2785, Sector Pueblo Nuevo, Temuco
 - **RBD:** 5617-0
-- **Niveles de enseñanza:** NT1 y NT2
-- **Jornada:** Mañana y tarde
-- **Matrícula referencial:** 40 estudiantes
-- **Contacto:** `campanita@temuco.cl` · `45 2 221258`
+- **Jornadas y Horarios:**
+  - **Prekínder A jornada mañana:** `08:15 a 12:45 horas`
+  - **Kínder A jornada mañana:** `08:15 a 12:15 horas`
+  - **Prekínder B jornada tarde:** `13:15 a 17:45 horas`
+- **Contacto:** `campanita@temuco.cl` · `+56 45 2 221258`
+- **Instagram oficial:** `@parvulos_campanita_tco` (`https://www.instagram.com/parvulos_campanita_tco/`)
+- **Sitio publicado:** https://fdoprado-ux.github.io/CampanitaTemuco/
 
 ## Estructura del Proyecto
 
-- `index.html`: Landing page responsiva con Identificación Institucional, Contexto Territorial, Reseña Histórica, Fortalezas y Desafíos, Ideario, Visión, Misión, Sellos Educativos, Valores, Enfoque Pedagógico y Curricular, Galería de Entornos y Centro de Descargas para Apoderados.
-- `styles.css`: Hoja de estilos con paleta natural inspirada en el emblema oficial de la escuela y diseño completamente adaptable a escritorio y dispositivos móviles.
-- `app.js`: Control de navegación móvil, filtros de galería y documentos, visor lightbox accesible y formulario de contacto.
-- `img/`: Emblema oficial sin fondo y material visual del establecimiento.
-- `docs/`: Documentación oficial 2026 disponible para descarga directa en formato PDF por madres, padres y apoderados:
+- `index.html`: Landing page responsiva con Identidad y Sello Educativo, Tres Pilares Fundamentales, Beneficios SEP e infraestructura, Horarios de Atención, Organigrama Institucional y Equipo Educativo, Contexto e Historia, Enfoque Curricular y Difusión en Instagram, Centro de Descargas de Documentos + Calendario Escolar 2026, Mapa de Ubicación con enlace a Google Maps y Formulario de Contacto.
+- `styles.css`: Hoja de estilos inspirada en el emblema oficial de la escuela y diseño completamente adaptable a escritorio y dispositivos móviles.
+- `app.js`: Filtros interactivos de equipo, galería y documentos, navegación móvil, visor lightbox accesible y formulario de contacto.
+- `img/`: Emblema oficial sin fondo y fotografías educativas del establecimiento.
+- `docs/`: Documentación oficial y calendario 2026 en formato PDF para descarga directa de madres, padres y apoderados:
+  - `Calendario Escolar Actividades 2026.pdf`
   - `PEI Escuela Parvulos Campanita 2026.pdf`
   - `Reglamento Interno 2026.pdf`
   - `Reglamento Evaluacion Promocion Actualizado 2026 Campanita.pdf`
